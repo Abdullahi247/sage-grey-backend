@@ -46,14 +46,10 @@ module.exports = (function (req, res, next) {
                     ///implimentation of mailling service
 
                     // var transporter = nodemailer.createTransport(nodemailerSgTransporter({
-                    //     auth: {
-                    //         // api_user: "test",
-                    //         api_key: "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"
-                    //     }
+                    
                     // }))
 
                     // var usermail = req.body.email
-                    // var customerToken = userToken.accountToken
                     // ///Automatically send email to any registered user
                     // var mailopt = {
                     //     from: "tsmart247@gmail.com",
@@ -64,9 +60,9 @@ module.exports = (function (req, res, next) {
                     //     html: `<div>
                     //         <h3>Verify you Sage-Grey Account</h3>
                     //         <p>
-                    //             Please Click on the link below to verifychcbvjvnjdfv
+                    //             Please Click on the link below to verify
                     //         </p>
-                    //         <a href='http://localhost:3044/verify/${usermail}/account/${customerToken}'>Verify</a>
+                    //         <a href='http://localhost:3044/verify/${usermail}/account/'>Verify</a>
                     //     </div>`
                     // }
                     // transporter.sendMail(
