@@ -22,7 +22,7 @@ app.use(cors())
 // app.use(logger)
 app.use(helmet())
 
-var mongoDB = "mongodb+srv://yusufabdullahi:study247@projectscluster2022.czkkt.mongodb.net/ProjectCluster2022?retryWrites=true&w=majority";
+const mongoDB;
 
 mongoose.connect(mongoDB, {
     useNewUrlParser: true
