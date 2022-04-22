@@ -22,7 +22,7 @@ app.use(cors())
 // app.use(logger)
 app.use(helmet())
 
-const mongoDB;
+const mongoDB = "";
 
 mongoose.connect(mongoDB, {
     useNewUrlParser: true
